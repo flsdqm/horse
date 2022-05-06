@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_login_and_register1"
-    tools:context=".RegisterActivity"
     android:focusable="true"
-    android:focusableInTouchMode="true">
+    android:focusableInTouchMode="true"
+    tools:context=".RegisterActivity">
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
 
-        android:background="@drawable/open_main_voice"
+        android:scaleType="centerInside"
+        android:src="@drawable/open_main_voice"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="1:1"
 
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
+
         app:layout_constraintTop_toTopOf="parent"
-
         app:layout_constraintVertical_bias="0.05"
-        app:layout_constraintWidth_default="percent"
 
+        app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.06" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -49,18 +49,26 @@
         <TextView
             android:id="@+id/text_rgs"
             style="@style/whiteText"
+
             android:layout_width="wrap_content"
-
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:autoSizeMaxTextSize="60sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeStepGranularity="1sp"
+            android:autoSizeTextType="uniform"
             android:text="注册"
-            android:textSize="66sp"
-            app:layout_constraintBottom_toBottomOf="parent"
 
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.15"
 
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0" />
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.5" />
+
         <ImageView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -79,187 +87,258 @@
 
             app:layout_constraintWidth_percent="0.1" />
 
-        <TextView
-            android:id="@+id/text1_rgs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
 
-            app:layout_constraintTop_toBottomOf="@id/text_rgs"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.82"
+
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-
-            app:layout_constraintHorizontal_bias="0.1"
-            app:layout_constraintVertical_bias="0.1"
-
-            style="@style/GameText"
-            android:text="手机号"
-            />
-        <TextView
-            android:id="@+id/text2_rgs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
             app:layout_constraintTop_toBottomOf="@id/text_rgs"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@id/text1_rgs"
-            app:layout_constraintEnd_toEndOf="@id/text1_rgs"
 
-            app:layout_constraintVertical_bias="0.27"
-
-            style="@style/GameText"
-            android:text="密码"
-            />
-        <TextView
-            android:id="@+id/text3_rgs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            app:layout_constraintTop_toBottomOf="@id/text_rgs"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@id/text1_rgs"
-            app:layout_constraintEnd_toEndOf="@id/text1_rgs"
-
-            app:layout_constraintVertical_bias="0.44"
-
-            style="@style/GameText"
-            android:text="宝宝昵称"
-            />
-        <TextView
-            android:id="@+id/text4_rgs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            app:layout_constraintTop_toBottomOf="@id/text_rgs"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@id/text1_rgs"
-            app:layout_constraintEnd_toEndOf="@id/text1_rgs"
-
-            app:layout_constraintVertical_bias="0.61"
-
-            style="@style/GameText"
-            android:text="宝宝性别"
-            />
-        <TextView
-            android:id="@+id/text5_rgs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            app:layout_constraintTop_toBottomOf="@id/text_rgs"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@id/text1_rgs"
-            app:layout_constraintEnd_toEndOf="@id/text1_rgs"
-
-            app:layout_constraintVertical_bias="0.78"
-
-            style="@style/GameText"
-            android:text="宝宝年龄"
-            />
-
-        <EditText
-            android:id="@+id/edit1_regs"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-
+            app:layout_constraintVertical_bias="0"
             app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.6"
-            app:layout_constraintHeight_default="percent"
-            app:layout_constraintHeight_percent="0.1"
 
-            app:layout_constraintTop_toTopOf="@id/text1_rgs"
-            app:layout_constraintBottom_toBottomOf="@id/text1_rgs"
-            app:layout_constraintStart_toEndOf="@id/text1_rgs"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.95"
 
-            android:background="@drawable/edittext_login"
-            />
-        <EditText
-            android:id="@+id/edit2_regs"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            >
 
-            app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.6"
-            app:layout_constraintHeight_default="percent"
-            app:layout_constraintHeight_percent="0.1"
+            <TextView
+                android:id="@+id/text1_rgs"
+                style="@style/GameText"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
 
-            app:layout_constraintTop_toTopOf="@id/text2_rgs"
-            app:layout_constraintBottom_toBottomOf="@id/text2_rgs"
-            app:layout_constraintStart_toStartOf="@id/edit1_regs"
-            app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:text="手机号"
 
-            android:background="@drawable/edittext_login"
-            />
-        <EditText
-            android:id="@+id/edit3_regs"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.08"
+                app:layout_constraintHorizontal_bias="0.1"
 
-            app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.6"
-            app:layout_constraintHeight_default="percent"
-            app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.2" />
 
-            app:layout_constraintTop_toTopOf="@id/text3_rgs"
-            app:layout_constraintBottom_toBottomOf="@id/text3_rgs"
-            app:layout_constraintStart_toStartOf="@id/edit1_regs"
-            app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+            <TextView
+                android:id="@+id/text2_rgs"
+                style="@style/GameText"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:text="密码"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/text1_rgs"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.08"
+                app:layout_constraintStart_toStartOf="@id/text1_rgs"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.27"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.2" />
 
-            android:background="@drawable/edittext_login"
-            />
-        <EditText
-            android:id="@+id/edit4_regs"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            <TextView
+                android:id="@+id/text3_rgs"
+                style="@style/GameText"
+                android:layout_width="0dp"
 
-            app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.6"
-            app:layout_constraintHeight_default="percent"
-            app:layout_constraintHeight_percent="0.1"
+                android:layout_height="0dp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
 
-            app:layout_constraintTop_toTopOf="@id/text4_rgs"
-            app:layout_constraintBottom_toBottomOf="@id/text4_rgs"
-            app:layout_constraintStart_toStartOf="@id/edit1_regs"
-            app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+                android:autoSizeTextType="uniform"
+                android:text="宝宝昵称"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/text1_rgs"
 
-            android:background="@drawable/edittext_login"
-            />
-        <EditText
-            android:id="@+id/edit5_regs"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.08"
+                app:layout_constraintStart_toStartOf="@id/text1_rgs"
+                app:layout_constraintTop_toTopOf="parent"
 
-            app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.6"
-            app:layout_constraintHeight_default="percent"
-            app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintVertical_bias="0.44"
 
-            app:layout_constraintTop_toTopOf="@id/text5_rgs"
-            app:layout_constraintBottom_toBottomOf="@id/text5_rgs"
-            app:layout_constraintStart_toStartOf="@id/edit1_regs"
-            app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.2" />
 
-            android:background="@drawable/edittext_login"
-            />
+            <TextView
+                android:id="@+id/text4_rgs"
+                style="@style/GameText"
+                android:layout_width="0dp"
 
-        <ImageView
-            android:id="@+id/finish_rgs"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+                android:layout_height="0dp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
 
-            app:layout_constraintHeight_default="percent"
-            app:layout_constraintHeight_percent="0.1"
-            app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.25"
+                android:autoSizeTextType="uniform"
+                android:text="宝宝性别"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/text1_rgs"
 
-            app:layout_constraintTop_toBottomOf="@id/text5_rgs"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.08"
+                app:layout_constraintStart_toStartOf="@id/text1_rgs"
+                app:layout_constraintTop_toTopOf="parent"
 
-            android:background="@drawable/register_finish"
-            android:onClick="toLogin"
-            />
+                app:layout_constraintVertical_bias="0.61"
+
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.2" />
+
+            <TextView
+                android:id="@+id/text5_rgs"
+                style="@style/GameText"
+                android:layout_width="0dp"
+
+                android:layout_height="0dp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
+
+                android:autoSizeTextType="uniform"
+                android:text="宝宝年龄"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/text1_rgs"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.08"
+                app:layout_constraintStart_toStartOf="@id/text1_rgs"
+                app:layout_constraintTop_toTopOf="parent"
+
+                app:layout_constraintVertical_bias="0.78"
+
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.2" />
+
+            <EditText
+                android:id="@+id/edit1_regs"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:paddingLeft="15dp"
+
+
+                android:background="@drawable/edittext_login"
+                app:layout_constraintBottom_toBottomOf="@id/text1_rgs"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_default="percent"
+
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toEndOf="@id/text1_rgs"
+                app:layout_constraintTop_toTopOf="@id/text1_rgs"
+                app:layout_constraintWidth_default="percent"
+
+                app:layout_constraintWidth_percent="0.6" />
+
+            <EditText
+                android:id="@+id/edit2_regs"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:paddingLeft="15dp"
+
+
+                android:background="@drawable/edittext_login"
+                app:layout_constraintBottom_toBottomOf="@id/text2_rgs"
+                app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+                app:layout_constraintHeight_default="percent"
+
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toStartOf="@id/edit1_regs"
+                app:layout_constraintTop_toTopOf="@id/text2_rgs"
+                app:layout_constraintWidth_default="percent"
+
+                app:layout_constraintWidth_percent="0.6" />
+
+            <EditText
+                android:id="@+id/edit3_regs"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:paddingLeft="15dp"
+
+
+                android:background="@drawable/edittext_login"
+                app:layout_constraintBottom_toBottomOf="@id/text3_rgs"
+                app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+                app:layout_constraintHeight_default="percent"
+
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toStartOf="@id/edit1_regs"
+                app:layout_constraintTop_toTopOf="@id/text3_rgs"
+                app:layout_constraintWidth_default="percent"
+
+                app:layout_constraintWidth_percent="0.6" />
+
+            <EditText
+                android:id="@+id/edit4_regs"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:paddingLeft="15dp"
+
+
+                android:background="@drawable/edittext_login"
+                app:layout_constraintBottom_toBottomOf="@id/text4_rgs"
+                app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+                app:layout_constraintHeight_default="percent"
+
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toStartOf="@id/edit1_regs"
+                app:layout_constraintTop_toTopOf="@id/text4_rgs"
+                app:layout_constraintWidth_default="percent"
+
+                app:layout_constraintWidth_percent="0.6" />
+
+            <EditText
+                android:id="@+id/edit5_regs"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:paddingLeft="15dp"
+
+                android:background="@drawable/edittext_login"
+                app:layout_constraintBottom_toBottomOf="@id/text5_rgs"
+                app:layout_constraintEnd_toEndOf="@id/edit1_regs"
+                app:layout_constraintHeight_default="percent"
+
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toStartOf="@id/edit1_regs"
+                app:layout_constraintTop_toTopOf="@id/text5_rgs"
+                app:layout_constraintWidth_default="percent"
+
+                app:layout_constraintWidth_percent="0.6" />
+
+            <ImageView
+                android:id="@+id/finish_rgs"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                android:onClick="toLogin"
+                android:src="@drawable/register_finish"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text5_rgs"
+
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.25" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -26,7 +26,9 @@
         app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintVertical_bias="0.05"
 
-        android:background="@drawable/open_main_voice" />
+        android:scaleType="centerInside"
+        android:src="@drawable/open_main_voice" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -47,8 +49,13 @@
 
         <TextView
             android:id="@+id/text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.55"
 
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -56,9 +63,13 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0"
 
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="50sp"
+            android:autoSizeStepGranularity="1sp"
+
             style="@style/whiteText"
-            android:text="@string/login"
-            android:textSize="50sp" />
+            android:text="@string/login"/>
         <ImageView
             android:id="@+id/home"
             android:layout_width="0dp"
@@ -76,7 +87,8 @@
             app:layout_constraintVertical_bias="0.02"
             app:layout_constraintHorizontal_bias="0.95"
 
-            android:background="@drawable/home"/>
+            android:scaleType="centerInside"
+            android:src="@drawable/home"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constrain"
@@ -88,12 +100,13 @@
             app:layout_constraintHeight_default="percent"
             app:layout_constraintHeight_percent="0.8"
 
-            app:layout_constraintTop_toBottomOf="@id/text"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
 
-            app:layout_constraintVertical_bias="0">
+            app:layout_constraintVertical_bias="0.8"
+            >
 
             <TextView
                 android:id="@+id/text1"
@@ -113,12 +126,18 @@
                 app:layout_constraintHorizontal_bias="0.05"
                 app:layout_constraintVertical_bias="0.2"
 
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeStepGranularity="1sp"
+
                 style="@style/GameText"
-                android:text="手机号"/>
+                android:text="手机号"
+                />
             <TextView
                 android:id="@+id/text2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
 
                 app:layout_constraintWidth_default="percent"
                 app:layout_constraintWidth_percent="0.25"
@@ -131,6 +150,11 @@
                 app:layout_constraintEnd_toEndOf="@id/text1"
 
                 app:layout_constraintVertical_bias="0.5"
+
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeStepGranularity="1sp"
 
                 style="@style/GameText"
                 android:text="密码"
@@ -192,10 +216,16 @@
 
                 app:layout_constraintHorizontal_bias="0.15"
 
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeStepGranularity="1sp"
+
                 android:background="@drawable/button_login"
                 android:text="登录"
                 style="@style/whiteText"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                />
 
             <Button
                 android:id="@+id/signupButton"
@@ -213,6 +243,11 @@
                 app:layout_constraintEnd_toEndOf="parent"
 
                 app:layout_constraintHorizontal_bias="0.85"
+
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeMaxTextSize="50sp"
+                android:autoSizeStepGranularity="1sp"
 
                 android:background="@drawable/button_login"
                 android:text="注册"
