@@ -40,6 +40,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
 
+            android:autoSizeMaxTextSize="60sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeStepGranularity="1sp"
+            android:autoSizeTextType="uniform"
             android:text="语音游戏"
             android:gravity="center"
             android:textColor="@color/white"
@@ -285,43 +289,53 @@
 
             <TextView
                 android:id="@+id/level"
+                style="@style/button"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
 
+                android:autoSizeMaxTextSize="60sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:maxLines="1"
+
+                android:text="@string/level"
+                app:layout_constraintBottom_toTopOf="@id/chapter"
+                app:layout_constraintEnd_toEndOf="parent"
+
                 app:layout_constraintHeight_default="percent"
                 app:layout_constraintHeight_percent="0.175"
-                app:layout_constraintWidth_default="percent"
-                app:layout_constraintWidth_percent="0.9"
-
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/chapter"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
 
                 app:layout_constraintVertical_bias="0.5"
 
-                style="@style/button"
-                android:text="@string/level"
-                />
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.9" />
             <TextView
                 android:id="@+id/chapter"
+                style="@style/button"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:autoSizeMaxTextSize="60sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+
+                android:maxLines="1"
+                android:text="@string/chapter"
+                app:layout_constraintBottom_toTopOf="@id/time"
+                app:layout_constraintEnd_toEndOf="parent"
 
                 app:layout_constraintHeight_default="percent"
                 app:layout_constraintHeight_percent="0.175"
-                app:layout_constraintWidth_default="percent"
-                app:layout_constraintWidth_percent="0.9"
-
-                app:layout_constraintTop_toBottomOf="@id/level"
-                app:layout_constraintBottom_toTopOf="@id/time"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/level"
 
                 app:layout_constraintVertical_bias="0.5"
 
-                style="@style/button"
-                android:text="@string/chapter"/>
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.9" />
             <Chronometer
                 android:id="@+id/time"
                 android:layout_width="0dp"
@@ -339,27 +353,31 @@
                 app:layout_constraintVertical_bias="0.5"
                 style="@style/button"
                 android:textSize="40sp"/>
-
             <TextView
                 android:id="@+id/score"
+                style="@style/button"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:autoSizeMaxTextSize="60sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
 
+                android:maxLines="1"
+                android:text="@string/score"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHeight_default="percent"
                 app:layout_constraintHeight_percent="0.175"
-                app:layout_constraintWidth_default="percent"
-                app:layout_constraintWidth_percent="0.9"
+                app:layout_constraintStart_toStartOf="parent"
 
                 app:layout_constraintTop_toBottomOf="@id/time"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
 
                 app:layout_constraintVertical_bias="0.5"
-
-                style="@style/button"
-                android:textSize="40sp"
-                android:text="@string/score" />
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.9" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
         <androidx.constraintlayout.widget.ConstraintLayout

@@ -231,7 +231,6 @@
                 android:layout_height="0dp"
                 android:paddingLeft="15dp"
 
-
                 android:background="@drawable/edittext_login"
                 app:layout_constraintBottom_toBottomOf="@id/text1_rgs"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -249,7 +248,6 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:paddingLeft="15dp"
-
 
                 android:background="@drawable/edittext_login"
                 app:layout_constraintBottom_toBottomOf="@id/text2_rgs"
