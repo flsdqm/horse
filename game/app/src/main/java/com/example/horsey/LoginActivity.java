@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        toRegister();
+                        toRegister(view);
                     }
                 }
         );
@@ -64,10 +64,11 @@ public class LoginActivity extends AppCompatActivity {
         finish();
     }
 
-    public void toRegister()
+    public void toRegister(View view)
     {
         Intent intent = new Intent(this,RegisterActivity.class);
         startActivity(intent);
         finish();
     }
+
 }
