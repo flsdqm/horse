@@ -13,7 +13,8 @@
         <activity
             android:name=".OpenScreen"
             android:exported="true"
-            android:theme="@style/Theme.OpenScreen">
+            android:theme="@style/Theme.OpenScreen"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,51 +29,64 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:theme="@style/Theme.OpenScreen">
+            android:theme="@style/Theme.OpenScreen"
+            android:screenOrientation="landscape">
         </activity>
         <service
             android:name=".BgmService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true"/>
         <activity
             android:name=".PCDISentencesMainActivity2"
-            android:exported="false"></activity>
+            android:exported="false"/>
         <activity
             android:name=".PCDISentencesStartActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".PCDIGestureMainActivity2"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".PCDIGestureStartActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".MChartMainActivity2"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".MChartStartActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".CARSMainActivity2"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".CARSStartActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".CABSMainActivity2"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".CABSStartActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".ABCMainActivity2"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".ABCStartActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".TableChooseActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".ChooseActivity4"
             android:exported="false" />
@@ -87,13 +101,16 @@
             android:exported="false" />
         <activity
             android:name=".TableMeasure"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".IndexActivity"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="landscape">
         </activity>
     </application>
 

@@ -35,8 +35,8 @@ public class PCDIGestureStartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pcdigesture_activity_start);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         View decorView=getWindow().getDecorView();
         decorView.setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE

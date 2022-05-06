@@ -315,6 +315,7 @@
             app:layout_constraintDimensionRatio="1" />
 
         <Button
+            android:id="@+id/enterChartButton"
             style="@style/join"
             android:layout_width="0dp"
             android:layout_height="00dp"
