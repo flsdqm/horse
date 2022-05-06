@@ -43,16 +43,17 @@ public class RegisterActivity extends AppCompatActivity
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        toLogin();
+                        toLogin(view);
                     }
                 }
         );
     }
 
-    public void toLogin()
+    public void toLogin(View view)
     {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         finish();
     }
+
 }
