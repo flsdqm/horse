@@ -1,0 +1,686 @@
+[
+  {
+    "order": 1,
+    "title": "1.喜欢长时间自身旋转",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 2,
+    "title": "2.学会做一件简单的事 但很快就忘记",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 3,
+    "title": "3.经常没有接触环境或进行交往的要求",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 4,
+    "title": "4. 往往不能接受简单的指令（如坐下、过来等）",
+    "option1": {
+      "name": "是",
+      "score": 1
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 5,
+    "title": "5.不会玩玩具（如没完没了地转动、乱扔、揉等）",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 6,
+    "title": "6.视觉辨别能力差（如对一种物体的特征、大小、颜色、位置等辨别能力差）",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 7,
+    "title": "7.无交往性微笑（即不会与人点头、招呼、微笑）",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 8,
+    "title": "8.代词运用颠倒或混乱（你、我分不清）",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 9,
+    "title": "9.长时间总拿着某种东西",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 10,
+    "title": "10.似乎不在听人说话，以至让人怀疑他有听力问题",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 11,
+    "title": "11.说话不合音调、无节奏",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 12,
+    "title": "12.长时间摇摆身体",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 13,
+    "title": "13.要去拿什么东西，但又不是身体所能达到的地方（即对自身与物体的距离估计不足）",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 14,
+    "title": "14.对环境和日常生活规律的改变产生强烈反应",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 15,
+    "title": "15.当与其他人在一起时 呼唤他的名字 他没有反应",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 16,
+    "title": "16.经常做出前冲、旋转、脚尖行走、手指轻掐轻弹等动作",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 17,
+    "title": "17.对其他人的面部表情没有反应",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 18,
+    "title": "18.说话时很少用“是”或“我”等词",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 19,
+    "title": "19.有某一方面的特殊能力，似乎与智力低下不相符合",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 20,
+    "title": "20.不能执行简单的含有介词语句的指令（如把球放在盒子上或放在盒子里）",
+    "option1": {
+      "name": "是",
+      "score": 1
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 21,
+    "title": "21.有时对很大的声音不产生吃惊反应（可能让人想到他是聋子）",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 22,
+    "title": "22.经常拍打手",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 23,
+    "title": "23.大发脾气或经常发点脾气 ",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 24,
+    "title": "24.主动回避与别人的眼光接触",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 25,
+    "title": "25.拒绝别人的接触或拥抱",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 26,
+    "title": "26.有时对很痛苦的刺激如摔伤、割破或注射不引起反应",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 27,
+    "title": "27.身体表现很僵硬、很难抱住",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 28,
+    "title": "28.当抱着看他时，感到他的肌肉松驰（即使他不紧贴抱他的人）",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 29,
+    "title": "29.以姿势、手势表示所渴望得到的东西（而不倾向于语言表示）",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 30,
+    "title": "30.常用脚尖走路",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 31,
+    "title": "31.用咬人、撞人、踢人等行为伤害他人 ",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 32,
+    "title": "32.不断地重复短句",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 33,
+    "title": "33.游戏时不模仿其他儿童",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 34,
+    "title": "34.当强光直接照射眼睛时常常不眨眼",
+    "option1": {
+      "name": "是",
+      "score": 1
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 35,
+    "title": "35.以撞头、咬手等行为自伤",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 36,
+    "title": "36.想要什么东西不能等待（一想要什么，就马上要得到）",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 37,
+    "title": "37.不能指出5个以上物体的名称",
+    "option1": {
+      "name": "是",
+      "score": 1
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 38,
+    "title": "38.不能发展任何友谊（不会和小朋友来往交朋友）",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 39,
+    "title": "39.有许多声音的时候，常常捂着耳朵",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 40,
+    "title": "40.经常旋转碰撞物体",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 41,
+    "title": "41.在训练大小便方面有困难（不会控制大小便）",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 42,
+    "title": "42.一天只能提出5个以内的要求",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 43,
+    "title": "43. 经常受到惊吓或非常焦虑不安",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 44,
+    "title": "44.在正常光线下斜眼、闭眼、皱眉",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 45,
+    "title": "45.不是经常被帮助的话，不会自己给自己穿衣 ",
+    "option1": {
+      "name": "是",
+      "score": 1
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 46,
+    "title": "46.一遍遍重复一些声音或词",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 47,
+    "title": "47.瞪着眼看人，好像要看穿似的",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 48,
+    "title": "48.重复别人的问话或回答",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 49,
+    "title": "49.经常不能意识所处的环境，并且可能对危险的环境不在意",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 50,
+    "title": "50.特别喜欢摆弄、着迷于单调的东西或游戏、活动等（如来回地走或跑，没完没了地蹦、跳、拍、敲）",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 51,
+    "title": "51.对周围东西喜欢嗅、摸或尝",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 52,
+    "title": "52.对生人常无视觉反应（对来人不看）",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 53,
+    "title": "53.纠缠在一些复杂的仪式行为上，就像缠在魔圈里（如走路要走一定的路线，饭前或做什么事前一定要把什么东西摆在什么位置，或做什么动作，否则就不睡不吃）",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 54,
+    "title": "54.经常毁坏东西（如玩具、家里的一切用具很快就给弄坏了）",
+    "option1": {
+      "name": "是",
+      "score": 2
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 55,
+    "title": "55.在2岁以前就发现孩子发育延迟",
+    "option1": {
+      "name": "是",
+      "score": 1
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 56,
+    "title": "56.在日常生活中至少用15个但不超过30个短句进行交往（不到15句也选“是”）",
+    "option1": {
+      "name": "是",
+      "score": 3
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  },
+  {
+    "order": 57,
+    "title": "57.长时间疑视一个地方（呆呆地看一处）",
+    "option1": {
+      "name": "是",
+      "score": 4
+    },
+    "option2": {
+      "name": "否",
+      "score": 0
+    }
+  }
+]

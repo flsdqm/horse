@@ -1,0 +1,463 @@
+[
+  {
+    "order": 1,
+    "title": "1.您的孩子喜欢被您放在膝上做摇摇、蹦跳之类的事情吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 2,
+    "title": "2.您的孩子对其他孩子有兴趣吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 3,
+    "title": "3.您的孩子喜欢爬上爬下，像上楼梯吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 4,
+    "title": "4.您的孩子喜欢藏猫猫或者捉迷藏的游戏吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 5,
+    "title": "5.您的孩子会假装做事吗？如：打电话或照顾洋娃娃，或者假装其他别的事情",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 6,
+    "title": "6.您的孩子曾用食指指着东西，要求要某样东西吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 7,
+    "title": "7.您的孩子曾用食指指着东西，表示对某样东西有兴趣吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 8,
+    "title": "8.您的孩子会正确玩小玩具（例如车子或积木），而不是把它们放在嘴里、随便乱动或是把它们丢掉",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 9,
+    "title": "9.您的孩子曾经拿东西给您（父母）看吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 10,
+    "title": "10.您的孩子看着您的眼睛超过一、两秒吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 11,
+    "title": "11.您的孩子曾经看起来像对噪音特别敏感吗（比如捂住耳朵）",
+    "option1": {
+      "name": "从不",
+      "score": 0
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 1
+    },
+    "option3": {
+      "name": "有时",
+      "score": 2
+    },
+    "option4": {
+      "name": "经常",
+      "score": 3
+    }
+  },
+  {
+    "order": 12,
+    "title": "12.您的孩子看着您的脸或者您的笑容时，会以微笑回应吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 13,
+    "title": "13.您的孩子会模仿您吗？（例如您做鬼脸，您的孩子也会模仿吗？)",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 14,
+    "title": "14.当您叫孩子的名字时，他（她）会有反应吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 15,
+    "title": "15.如果您指着房间另一头的玩具，您的孩子会看那个玩具吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 16,
+    "title": "16.您的孩子会走路吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 17,
+    "title": "17.您的孩子会看您正在看的东西吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 18,
+    "title": "18.您的孩子会在他（她）的脸附近做一些不同寻常的手指动作吗",
+    "option1": {
+      "name": "从不",
+      "score": 0
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 1
+    },
+    "option3": {
+      "name": "有时",
+      "score": 2
+    },
+    "option4": {
+      "name": "经常",
+      "score": 3
+    }
+  },
+  {
+    "order": 19,
+    "title": "19.您的孩子会设法吸引您看他（她）自己的活动吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 20,
+    "title": "20.您是否曾经怀疑您的孩子听力有问题",
+    "option1": {
+      "name": "从不",
+      "score": 0
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 1
+    },
+    "option3": {
+      "name": "有时",
+      "score": 2
+    },
+    "option4": {
+      "name": "经常",
+      "score": 3
+    }
+  },
+  {
+    "order": 21,
+    "title": "21.您的孩子能理解别人说的话吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  },
+  {
+    "order": 22,
+    "title": "22.您的孩子有时候会无目标地凝视或者无目的地走来走去吗",
+    "option1": {
+      "name": "从不",
+      "score": 0
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 1
+    },
+    "option3": {
+      "name": "有时",
+      "score": 2
+    },
+    "option4": {
+      "name": "经常",
+      "score": 3
+    }
+  },
+  {
+    "order": 23,
+    "title": "23.您的孩子碰到不熟悉的事物时会看着您的脸，看看您的反应吗",
+    "option1": {
+      "name": "从不",
+      "score": 3
+    },
+    "option2": {
+      "name": "偶尔",
+      "score": 2
+    },
+    "option3": {
+      "name": "有时",
+      "score": 1
+    },
+    "option4": {
+      "name": "经常",
+      "score": 0
+    }
+  }
+
+]

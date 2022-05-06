@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_page">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/GameContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.85"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/Detail"
+
+        android:background="@drawable/game_page">
+
+        <TextView
+            android:id="@+id/gameName"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.1"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:text="语音游戏"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="50sp"/>
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.07"
+            app:layout_constraintDimensionRatio="1:1"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.95"
+
+            android:background="@drawable/close"
+            />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/game"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.95"
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.82"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintVertical_bias="0.8"
+            >
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintVertical_bias="0.1"
+
+                android:text="1/5"
+                android:textSize="40sp"
+                android:textColor="@color/game" />
+            <ImageView
+                android:id="@+id/dad"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.16"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.5"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/mom"
+
+                />
+
+            <TextView
+                android:id="@+id/textLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/dad"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/textRight"
+                android:text="pic1"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textLeftTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/dad"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/textRight"
+                android:text="pic1"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/mom"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.16"
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.5"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/dad"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mom"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/textLeft"
+                android:text="pic2"
+                android:textSize="30dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textRightTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/mom"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/textLeft"
+                android:text="pic2"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/right"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintDimensionRatio="1:1"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintVertical_bias="0.45"
+
+                android:background="@drawable/choose_right" />
+
+            <ImageButton
+                android:id="@+id/left"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.1"
+                app:layout_constraintDimensionRatio="1:1"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintVertical_bias="0.45"
+
+                android:background="@drawable/choose_left" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Detail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.85"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/GameContent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@drawable/detail_page"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.15"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/buttons">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.6"
+                app:layout_constraintDimensionRatio="1:1"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintVertical_bias="1"
+
+                android:background="@drawable/home"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            app:layout_constraintTop_toBottomOf="@id/content1"
+            app:layout_constraintBottom_toTopOf="@id/content3"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.6">
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.175"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.9"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/chapter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintVertical_bias="0.5"
+
+                style="@style/button"
+                android:text="@string/level"
+                />
+            <TextView
+                android:id="@+id/chapter"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.175"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.9"
+
+                app:layout_constraintTop_toBottomOf="@id/level"
+                app:layout_constraintBottom_toTopOf="@id/time"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintVertical_bias="0.5"
+
+                style="@style/button"
+                android:text="@string/chapter"/>
+            <Chronometer
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:format="%s"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.175"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.9"
+                app:layout_constraintTop_toBottomOf="@id/chapter"
+                app:layout_constraintBottom_toTopOf="@id/score"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.5"
+                style="@style/button"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintHeight_default="percent"
+                app:layout_constraintHeight_percent="0.175"
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.9"
+
+                app:layout_constraintTop_toBottomOf="@id/time"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintVertical_bias="0.5"
+
+                style="@style/button"
+                android:textSize="40sp"
+                android:text="@string/score" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/content3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            app:layout_constraintHeight_default="percent"
+            app:layout_constraintHeight_percent="0.25"
+
+            app:layout_constraintTop_toBottomOf="@id/buttons"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_constraintWidth_default="percent"
+                app:layout_constraintWidth_percent="0.8"
+                app:layout_constraintDimensionRatio="1:1"
+
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintVertical_bias="0"
+
+                android:background="@drawable/circle_button">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/horse"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+
+                    app:layout_constraintWidth_default="percent"
+                    app:layout_constraintWidth_percent="1"
+                    app:layout_constraintDimensionRatio="1:1"
+
+                    android:padding="5dp"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+
+                    android:src="@drawable/correct_horse">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/title"></include>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:text="评估量表测评结果"
+            android:textSize="40dp"
+            android:gravity="center">
+        </TextView>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_centerHorizontal="true"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay">
+
+        <TableLayout
+            android:id="@+id/tablelayout"
+            android:isScrollContainer="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:background="@drawable/table_shape">
+
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/button1"
+                    android:text="儿童昵称"
+                    android:textSize="40dp"
+                    android:width="200dp"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="#fafafa"
+                    android:layout_margin="1.5dip">
+                </TextView>
+                <TextView
+                    android:id="@+id/button2"
+                    android:text="李静怡"
+                    android:textSize="40dp"
+                    android:width="200dp"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+                <TextView
+                    android:id="@+id/button3"
+                    android:text="性别"
+                    android:textSize="40dp"
+                    android:width="200dp"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+                <TextView
+                    android:id="@+id/button4"
+                    android:text="女"
+                    android:textSize="40dp"
+                    android:width="200dp"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+                <TextView
+                    android:id="@+id/button5"
+                    android:text="年龄"
+                    android:textSize="40dp"
+                    android:width="200dp"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+                <TextView
+                    android:id="@+id/button6"
+                    android:text="6"
+                    android:textSize="40dp"
+                    android:width="200dp"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/button7"
+                    android:text="测试日期"
+                    android:textSize="40dp"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+                <TextView
+                    android:id="@+id/button8"
+                    android:text="YYYY.MM.DD HH:mm:ss"
+                    android:textSize="40dp"
+                    android:layout_span="5"
+                    android:height="65dp"
+                    android:textAlignment="center"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/button9"
+                    android:text="测试结果"
+                    android:textSize="40dp"
+                    android:textAlignment="center"
+                    android:layout_height="match_parent"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pie"
+                    android:layout_span="2"
+                    android:layout_height="match_parent"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </com.github.mikephil.charting.charts.PieChart>
+
+
+                <TextView
+                    android:id="@+id/button10"
+                    android:text="正在加载中，请稍候..."
+                    android:textSize="40dp"
+                    android:layout_span="5"
+                    android:minHeight="475dp"
+                    android:background="#fafafa"
+                    android:gravity="center"
+                    android:layout_margin="1.5dip">
+                </TextView>
+
+            </TableRow>
+
+        </TableLayout>
+        </ScrollView>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

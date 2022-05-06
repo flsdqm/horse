@@ -1,0 +1,38 @@
+[
+    {
+        "sort": "choose_speaking",
+        "chapter": "短语",
+        "chinese": "唱",
+        "pinyin": "chang",
+        "level": "无",
+        "picture": "choose_sing",
+        "voice": "sing"
+    },
+    {
+        "sort": "choose_speaking",
+        "chapter": "短语",
+        "chinese": "飞",
+        "pinyin": "fei",
+        "level": "无",
+        "picture": "choose_fly",
+        "voice": "fly"
+    },
+    {
+        "sort": "choose_speaking",
+        "chapter": "短语",
+        "chinese": "喝",
+        "pinyin": "he",
+        "level": "无",
+        "picture": "choose_drink",
+        "voice": "drink"
+    },
+    {
+        "sort": "choose_speaking",
+        "chapter": "短语",
+        "chinese": "游泳",
+        "pinyin": "you yong",
+        "level": "无",
+        "picture": "choose_swim",
+        "voice": "swim"
+    }
+]

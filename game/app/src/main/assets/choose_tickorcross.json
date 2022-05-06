@@ -1,0 +1,38 @@
+[
+    {
+        "sort": "choose_tickorcross",
+        "chapter": "训练",
+        "chinese": "蓝书",
+        "pinyin": "lan shu",
+        "level": "无",
+        "picture": "choose_bluebook",
+        "voice": "bluebook"
+    },
+    {
+        "sort": "choose_tickorcross",
+        "chapter": "训练",
+        "chinese": "黄书",
+        "pinyin": "huang shu",
+        "level": "无",
+        "picture": "choose_yellowbook",
+        "voice": "yellowbook"
+    },
+    {
+        "sort": "choose_tickorcross",
+        "chapter": "训练",
+        "chinese": "绿书",
+        "pinyin": "lv shu",
+        "level": "无",
+        "picture": "choose_greenbook",
+        "voice": "greenbook"
+    },
+    {
+        "sort": "choose_tickorcross",
+        "chapter": "训练",
+        "chinese": "红书",
+        "pinyin": "hong shu",
+        "level": "无",
+        "picture": "choose_redbook",
+        "voice": "redbook"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "sort": "choose_pingpong",
+        "chapter": "名词",
+        "chinese": "闹钟",
+        "pinyin": "nao zhong",
+        "level": "无",
+        "picture": "choose_clock",
+        "voice": "clock"
+    },
+    {
+        "sort": "choose_pingpong",
+        "chapter": "名词",
+        "chinese": "铅笔",
+        "pinyin": "qian bi",
+        "level": "无",
+        "picture": "choose_pencil",
+        "voice": "pencil"
+    },
+    {
+        "sort": "choose_pingpong",
+        "chapter": "名词",
+        "chinese": "苹果",
+        "pinyin": "ping guo",
+        "level": "无",
+        "picture": "choose_apple",
+        "voice": "apple"
+    },
+    {
+        "sort": "choose_pingpong",
+        "chapter": "名词",
+        "chinese": "胡萝卜",
+        "pinyin": "hu luo bo",
+        "level": "无",
+        "picture": "choose_carrot",
+        "voice": "carrot"
+    }
+]

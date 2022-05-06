@@ -1,0 +1,41 @@
+[
+    {
+        "sort": "choose_food",
+        "chapter": "食物",
+        "chinese": "香蕉",
+        "pinyin": "xiang jiao",
+        "level": "一级",
+        "picture": "choose_banana",
+        "voice": "banana"
+    },
+    {
+        "sort": "choose_food",
+        "chapter": "食物",
+        "chinese": "西瓜",
+        "pinyin": "xi gua",
+        "level": "一级",
+        "picture": "choose_watermelon",
+        "voice": "watermelon"
+    },
+    {
+        "sort": "choose_food",
+        "chapter": "食物",
+        "chinese": "葡萄",
+        "pinyin": "pu tao",
+        "level": "一级",
+        "picture": "choose_grapes",
+        "voice": "grapes"
+    },
+    {
+        "sort": "choose_food",
+        "chapter": "食物",
+        "chinese": "面包",
+        "pinyin": "mian bao",
+        "level": "一级",
+        "picture": "choose_bread",
+        "voice": "bread"
+    }
+
+
+
+]

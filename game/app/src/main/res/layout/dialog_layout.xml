@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您的答题情况"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginTop="100dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textAlignment="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点击题目序号可跳转到当前页面"
+            android:textSize="20dp"
+            android:textAlignment="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textAlignment="center">
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="525dp"
+            android:layout_centerHorizontal="true"
+            android:paddingHorizontal="20dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="11dp"
+                    android:background="@drawable/problem_shape"
+                    android:text="- -"
+                    android:textSize="30dp"
+                    android:textAlignment="center">
+
+                </TextView>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

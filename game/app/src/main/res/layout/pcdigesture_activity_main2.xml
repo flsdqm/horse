@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    tools:openDrawer="end"
+    android:id="@+id/main2"
+    tools:ignore="MissingClass">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="625dp">
+
+        <ImageButton
+            android:id="@+id/leftbutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/leftarrow"
+            android:scaleType="centerInside"
+            android:layout_gravity="left"
+            android:layout_marginLeft="150dp"
+            android:layout_weight="1"
+            android:background="#FAFAFA">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="50dp"
+            android:text="--/--"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="25dp">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/rightbutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="150dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/rightarrow"
+            android:background="#FAFAFA">
+
+        </ImageButton>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginVertical="165dp"
+        android:text="汉语沟通发展量表（PCDI）"
+        android:textColor="#3C85AB"
+        android:textSize="30dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="100dp"
+        android:adjustViewBounds="true">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="200dp"
+        android:text="您的孩子是否掌握以下语句"
+        android:textColor="#3C85AB"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/problemtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="250dp"
+        android:text="0.此处显示题目"
+        android:textColor="#3C85AB"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/never"
+        android:layout_width="550dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="300dp"
+        android:background="#65B1BF"
+        android:padding="20dp"
+        android:text="选项1"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/seldom"
+        android:layout_width="550dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="400dp"
+        android:background="#65B1BF"
+        android:padding="20dp"
+        android:text="选项2"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/often"
+        android:layout_width="550dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="500dp"
+        android:background="#65B1BF"
+        android:padding="20dp"
+        android:text="选项3"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="690dp"
+        android:background="@color/teal_200"
+        android:padding="10dp"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </Button>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/drawer"
+        android:layout_alignParentRight="true"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="您的答题情况"
+            android:textAlignment="center"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点击题目序号可跳转到当前页面"
+            android:textAlignment="center"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="10dp">
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:paddingHorizontal="35dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical">
+
+            <GridLayout
+                android:id="@+id/gridlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="6">
+
+                <!--
+                一行最多可放置6个
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/problem_shape"
+                    android:text="00"
+                    android:textSize="40dp"
+                    android:textAlignment="center"
+                    android:layout_margin="10dip">
+                </TextView>
+                -->
+            </GridLayout>
+        </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="210dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="#65B1BF"
+            android:text="继续答题"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/white">
+        </Button>
+        <!--
+        <Button
+            android:id="@+id/submitnow"
+            android:layout_width="210dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="立即提交"
+            android:textAlignment="center"
+            android:textSize="25dp">
+        </Button>
+        -->
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

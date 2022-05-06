@@ -1,0 +1,54 @@
+[
+  {
+    "level": "等级一",
+    "options": {
+      "opt1": "人物",
+      "pic1": "choose_human",
+      "opt2": "颜色",
+      "pic2": "choose_color",
+      "opt3": "玩具",
+      "pic3": "choose_toy",
+      "opt4": "食物",
+      "pic4": "choose_food"
+    }
+  },
+  {
+    "level": "等级二",
+    "options": {
+      "opt1": "家居",
+      "pic1": "choose_furniture",
+      "opt2": "生活物品",
+      "pic2": "choose_supplies",
+      "opt3": "厨房用具",
+      "pic3": "choose_kitchen",
+      "opt4": "清洁用具",
+      "pic4": "choose_cleantools"
+    }
+  },
+  {
+    "level": "等级三",
+    "options": {
+      "opt1": "交通工具",
+      "pic1": "choose_trans",
+      "opt2": "教学工具",
+      "pic2": "choose_teach",
+      "opt3": "球类",
+      "pic3": "choose_ball",
+      "opt4": "自然景观",
+      "pic4": "choose_nature"
+    }
+  },
+  {
+    "level": "等级四",
+    "options": {
+      "opt1": "植物",
+      "pic1": "choose_plant",
+      "opt2": "动物",
+      "pic2": "choose_animal",
+      "opt3": "行为动作",
+      "pic3": "choose_behaviour",
+      "opt4": "位置",
+      "pic4": "choose_up"
+    }
+  }
+]

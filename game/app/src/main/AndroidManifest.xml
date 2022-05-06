@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.horsey">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Horsey">
+        <activity
+            android:name=".OpenScreen"
+            android:exported="true"
+            android:theme="@style/Theme.OpenScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OpenScreen">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OpenScreen">
+        </activity>
+        <service
+            android:name=".BgmService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <activity
+            android:name=".PCDISentencesMainActivity2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".PCDISentencesStartActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".PCDIGestureMainActivity2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".PCDIGestureStartActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".MChartMainActivity2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".MChartStartActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".CARSMainActivity2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".CARSStartActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".CABSMainActivity2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".CABSStartActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".ABCMainActivity2"
+            android:exported="false"></activity>
+        <activity
+            android:name=".ABCStartActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".TableChooseActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".ChooseActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TableMeasure"
+            android:exported="false"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".IndexActivity"
+            android:exported="false">
+        </activity>
+    </application>
+
+</manifest>
