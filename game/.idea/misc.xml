@@ -47,6 +47,7 @@
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/activity_main_index.xml" value="0.1" />
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/activity_openscreen.xml" value="0.22826086956521738" />
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/activity_register.xml" value="0.136" />
+<<<<<<< HEAD
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/activity_table.xml" value="0.14945652173913043" />
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/cabs_activity_main2.xml" value="0.22826086956521738" />
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/cabs_activity_start.xml" value="0.22826086956521738" />
@@ -74,6 +75,9 @@
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/pcdisentences_activity_start.xml" value="0.22826086956521738" />
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/pcdisentences_result_list.xml" value="0.22826086956521738" />
         <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/table_choose.xml" value="0.14945652173913043" />
+=======
+        <entry key="..\:/Project/pony/project/horse/game/app/src/main/res/layout/choose_utility.xml" value="0.14945652173913043" />
+>>>>>>> zyu
         <entry key="..\:/Users/Public/AndroidStudioProjects/game - 副本/app/src/main/res/drawable/frame_button.xml" value="0.332" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/game - 副本/app/src/main/res/layout/abc_activity_main2.xml" value="0.26953125" />
         <entry key="..\:/Users/Public/AndroidStudioProjects/game - 副本/app/src/main/res/layout/abc_activity_main2_backup.xml" value="0.26953125" />
